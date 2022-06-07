@@ -1,0 +1,84 @@
+*{
+    width: 100%;
+    margin: 0%;
+}
+.title{
+ 
+    text-transform:capitalize;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;   
+}
+
+.wrapper{
+    display: flex;   
+}
+
+.let_container, .const_container{
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 20px; 
+    height: 50vh;
+    width: 50%;
+    margin: 3em;
+    text-align: center;
+}
+
+.let_title, .const_title{
+    text-transform:uppercase; 
+    font-size: 2rem;
+    text-decoration: bold;
+}
+
+.let_value, .const_value{
+    font-size: 1.5rem;
+}
+
+.let_btn,.const_btn {
+    font-size: 1.5rem;
+    margin: 1em;
+    border: rgb(42, 138, 218);
+    border-radius: 20px;
+    width: 13em;
+    height:7vh;
+    background-color: rgb(42, 138, 218);
+    color: white;
+    cursor: pointer;
+
+}
+
+.let_btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+ .const_btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+.let_result, .const_result{
+    font-size: 1.5rem;
+}
+
+.let_resultDisplay, .const_resultDisplay{
+    display: none;
+    border:  #177704;
+    border-radius: 20px;
+    margin-top: 1em;
+    margin-left: 6em;
+    padding-top: 0.5em;
+    font-size: 1.5rem;
+    width: 50%;
+    height: 7vh;
+    background-color:  #177704;;
+    color: white;
+    
+}
+
+.const_resultDisplay{
+    border: #c2033d;  
+    background-color: #c2033d;
+}
+
